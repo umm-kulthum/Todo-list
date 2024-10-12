@@ -1,0 +1,73 @@
+body {
+  background: linear-gradient(90deg, #cc95c0 0%, #dbd4b4 50%, #7aa1d2 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.todo-box {
+  background-color: blueviolet;
+  padding: 3rem;
+  border-radius: 2rem;
+}
+
+.todo-heading {
+  margin-bottom: 3rem;
+  display: flnex;
+  gap: 1rem;
+  cursor: grab;
+}
+
+.todo-heading input {
+  flex-grow: 0.3rem;
+  padding-left: 0.5rem;
+  border-radius: 0.8rem;
+}
+
+.todo-heading input:focus {
+  outline-color: darkred;
+  background-color: hotpink;
+}
+
+.todo-heading button {
+  background-color: violet;
+  color: whitesmoke;
+  font-weight: 600;
+  padding: 0.3rem;
+  transition: opacity 300ms ease;
+  border-radius: 0.5rem;
+}
+
+.todo-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo-list li {
+  background-color: peachpuff;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-top: 0.8rem;
+  margin-bottom: 2rem;
+  margin-right: 3rem;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 2rem;
+  border: 2px solid black;
+}
+#btm-note {
+  align-self: self-start\;
+}
+
+.todo-list li button {
+  color: black;
+  background-color: #cc95c0;
+  border: 1px solid brown;
+  border-radius: 1rem;
+
+
+
+
+  
